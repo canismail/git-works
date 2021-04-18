@@ -13,11 +13,20 @@ git init
 
 -- git durumunda ki statüyü görürüz
 git status
+git status -s (kısa gösterim)
 
 -- staging(geçici) areaya dosyaları alır.
 git add .
 
 -- local repoya staging area dan al.
 git commit -m 'comment'
+
+--staging areaya alınan değişikliği geri almak için kullanırız(unstage)
+git reset HEAD git-notes.txt
+
+-- working directory'de değişikliği geri almak için kullanırız.
+git checkout -- git-notes.txt
+
+git show
 
 
