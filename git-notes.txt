@@ -29,4 +29,7 @@ git checkout -- git-notes.txt
 
 git show
 
+git log
+git log --since=10minutes (son 10 dakikalık log)
+
 
