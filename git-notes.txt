@@ -1,0 +1,16 @@
+-- projeyi locale çekebiliriz.
+git clone https..
+
+-- config değerleri görebiliriz.
+git config --list
+
+-- bu şekilde kullanıcı ad soyad/mail ekleyebiliriz.
+git config --global user.name 'canismail'
+git config --global user.email 'ismail.can.meral1@gmail.com'
+
+-- local repoyu init ettik
+git init
+
+-- git durumunda ki statüyü görürüz
+git status
+
