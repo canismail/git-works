@@ -27,9 +27,12 @@ git reset HEAD git-notes.txt
 -- working directory'de değişikliği geri almak için kullanırız.
 git checkout -- git-notes.txt
 
+-- bunla tekrardan en sonuncuya dönerbiliriz. 
+git checkout master
+
 git show
 
 git log
 git log --since=10minutes (son 10 dakikalık log)
 
-test
+
