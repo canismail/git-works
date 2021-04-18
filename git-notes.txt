@@ -30,6 +30,7 @@ git checkout -- git-notes.txt
 -- bunla tekrardan en sonuncuya dönerbiliriz. 
 git checkout master
 
+ilgili commit içerisinde ki değişiklikleri görebiliriz.
 git show
 
 git log
