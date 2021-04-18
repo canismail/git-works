@@ -35,4 +35,5 @@ git show
 git log
 git log --since=10minutes (son 10 dakikalık log)
 
-
+-- revert ile ilgili değişiklikler aradan çıkarıması sağlanabilir.
+git revert h23h80
