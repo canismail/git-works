@@ -41,3 +41,12 @@ git revert h23h80
 -- cache i siler. o an takip ettiği dosyaların izlemesini siler.
 -- gitignore dosyasını sonradan eklediğimiz de cache i temizlemek için kullanabiliriz.
 git rm -r --cached .
+
+-- brancleri görebiliriz.
+git branch -a
+
+-- aşağıda ki gibi branchler oluşturabiliriz.
+git branch branc_java
+git checkout branc_java dersek bu  branche switch oluruz ve yapacağımız değişiklik ve commitler burada olmuş olur.
+burada master branche merger etmemiz gerekir.
+git merge branch_java  diyerek mastera merger etmiş oluruz.
