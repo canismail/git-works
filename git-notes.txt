@@ -37,3 +37,7 @@ git log --since=10minutes (son 10 dakikalık log)
 
 -- revert ile ilgili değişiklikler aradan çıkarıması sağlanabilir.
 git revert h23h80
+
+-- cache i siler. o an takip ettiği dosyaların izlemesini siler.
+-- gitignore dosyasını sonradan eklediğimiz de cache i temizlemek için kullanabiliriz.
+git rm -r --cached .
