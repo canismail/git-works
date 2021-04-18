@@ -51,3 +51,10 @@ git branch branc_java
 git checkout branc_java dersek bu  branche switch oluruz ve yapacağımız değişiklik ve commitler burada olmuş olur.
 burada master branche merger etmemiz gerekir.
 git merge branch_java  diyerek mastera merger etmiş oluruz.
+
+-- branch oluşturduk.
+git branch -M main 
+
+-- remote repoya gönderdik.
+git remote add origin https://github.com/canismail/git-works.git
+git push -u origin main
